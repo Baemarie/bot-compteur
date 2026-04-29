@@ -1,0 +1,48 @@
+{
+  "chats": {
+    "120363405897055186@g.us": {
+      "enabled": false,
+      "moderatorId": null,
+      "theme": "Quizz Multiverse",
+      "participants": {},
+      "lastAward": null,
+      "actionHistory": [],
+      "awardedMessageIds": {},
+      "customEmoji": null,
+      "pendingEmojiSetupMessageId": null
+    },
+    "32109376872654@lid": {
+      "enabled": false,
+      "moderatorId": null,
+      "theme": "Quizz Multiverse",
+      "participants": {},
+      "lastAward": null,
+      "actionHistory": [],
+      "awardedMessageIds": {},
+      "customEmoji": null,
+      "pendingEmojiSetupMessageId": null
+    },
+    "120363403637087007@g.us": {
+      "enabled": false,
+      "moderatorId": null,
+      "theme": "Quizz Multiverse",
+      "participants": {},
+      "lastAward": null,
+      "actionHistory": [],
+      "awardedMessageIds": {},
+      "customEmoji": null,
+      "pendingEmojiSetupMessageId": null
+    },
+    "100812093153489@lid": {
+      "enabled": false,
+      "moderatorId": null,
+      "theme": "Quizz Multiverse",
+      "participants": {},
+      "lastAward": null,
+      "actionHistory": [],
+      "awardedMessageIds": {},
+      "customEmoji": null,
+      "pendingEmojiSetupMessageId": null
+    }
+  }
+}

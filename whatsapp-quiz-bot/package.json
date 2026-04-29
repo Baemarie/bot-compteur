@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-points-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp points bot with moderator scoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -c index.js && node -c bot-main.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.6"
+  }
+}

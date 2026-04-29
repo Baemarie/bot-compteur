@@ -1,0 +1,39 @@
+modules = ["web", "nodejs-20", "bash", "nix"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["chromium", "nss", "freetype", "harfbuzz", "fontconfig", "libgbm", "glib", "dbus", "xorg.libX11", "xorg.libXcomposite", "xorg.libXdamage", "xorg.libXext", "xorg.libXfixes", "xorg.libXrandr", "xorg.libxcb", "xorg.libXi", "xorg.libXtst", "xorg.libXcursor", "xorg.libXrender", "xorg.libxshmfence", "at-spi2-atk", "at-spi2-core", "cups", "expat", "mesa", "pango", "alsa-lib"]
+
+[userenv]
+
+[userenv.shared]
+PUPPETEER_EXECUTABLE_PATH = "/nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bash start.sh"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[deployment]
+deploymentTarget = "vm"
+run = ["bash", "start.sh"]

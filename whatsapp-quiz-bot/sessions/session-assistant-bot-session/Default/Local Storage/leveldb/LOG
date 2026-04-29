@@ -1,0 +1,6 @@
+2026/04/29-18:10:43.936 dd3 Reusing MANIFEST /home/runner/workspace/whatsapp-quiz-bot/sessions/session-assistant-bot-session/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/29-18:10:43.944 dd3 Recovering log #8
+2026/04/29-18:10:43.947 dd3 Reusing old log /home/runner/workspace/whatsapp-quiz-bot/sessions/session-assistant-bot-session/Default/Local Storage/leveldb/000008.log 
+2026/04/29-18:49:05.155 dd4 Level-0 table #11: started
+2026/04/29-18:49:05.209 dd4 Level-0 table #11: 13314 bytes OK
+2026/04/29-18:49:05.213 dd4 Delete type=0 #8

@@ -1,0 +1,8 @@
+run = "bash start-replit.sh"
+entrypoint = "index.js"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+NODE_ENV = "production"
